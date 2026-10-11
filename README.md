@@ -8,7 +8,9 @@ Yphtach Lelkes, Gaurav Sood, and Shanto Iyengar. 2017. *American Journal of Poli
 
 The data and R scripts are archived on [Harvard Dataverse](https://doi.org/10.7910/DVN/W1YJZQ). The archive includes:
 
-* Broadband provider counts by ZIP code (2004, 2008) and state right-of-way index (`bbindex.tab`)
-* National Annenberg Election Survey and American National Election Studies data
-* Scripts for each table and figure, and `run_all_scripts.R` to run them in order
-* Codebooks (`Codebooks.pdf`) and `readme.txt`
+* `mergeddataset.RData` (individual-level) and `mergedcounty.RData` (county-level), the main analysis datasets
+* `bbindex.csv`, the broadband data used throughout
+* ANES 2012, Pew 2004, and comScore 2004/2008 data for Figures 3–4, C1, and Appendix E
+* Data and code for the right-of-way validation and robustness checks
+* R scripts for each table and figure; `run_all_scripts.R` recreates them all
+* A codebook and `readme.txt` mapping each file to its table or figure
